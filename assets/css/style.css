@@ -1,3 +1,46 @@
 body {
-	background-color: pink;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
 }
+
+nav {
+	background-color: #b31d83;
+	margin: 0;
+	padding: 0px 0px 0px 80px;
+	overflow: hidden;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: 	#ffffa8;
+	padding: 26px;
+	text-align: center;
+}
+
+nav a:hover {
+	background-color: #f09102;
+	color: #b31d83;
+}
+
+/*Seccion de Mini Nav*/
+
+.mini-nav {
+	background-color: #b31d83;
+	width: 909px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.mini-nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: 	#ffffa8;
+	padding: 26px 0;
+	width: 300px;
+	text-align: center;
+}
+
+.mini-nav a:hover {
+	background-color: #f09102;
+	color: #b31d83;
+} 
