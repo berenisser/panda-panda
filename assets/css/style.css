@@ -44,3 +44,30 @@ nav a:hover {
 	background-color: #f09102;
 	color: #b31d83;
 } 
+
+/*Seccion texto*/
+.letras {
+	width: 909px;
+	margin: 0 auto;
+}
+
+.letras p {
+	
+	margin-top: 50px;
+}
+
+.izquierda {
+	float: left;
+	width: 47%;
+	text-align: justify;
+}
+
+.derecha {
+	float: right;
+	width: 47%;
+	text-align: justify;
+}
+
+.display-nada {
+	display: none;
+}
