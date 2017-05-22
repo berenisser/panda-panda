@@ -5,7 +5,7 @@ body {
 
 nav {
 	background-color: #b31d83;
-	margin: 0;
+	margin: 0 0 20px 0;
 	padding: 0px 0px 0px 80px;
 	overflow: hidden;
 }
@@ -22,6 +22,43 @@ nav a:hover {
 	background-color: #f09102;
 	color: #b31d83;
 }
+
+/*Seccion Fotos Panda*/
+
+.fotos-pandas{
+	margin: 0 auto;
+	width: 60%;
+}
+
+
+.foto1 {
+	background-image: url(../img/a1.jpg);
+}
+.foto2 {
+	background-image: url(../img/a2.jpg);
+}
+.foto3 {
+	background-image: url(../img/a3.jpg);
+}
+.foto4 {
+	background-image: url(../img/a4.jpg);
+}
+.foto-cada-uno{
+	display: inline-block;
+	padding: 60px 65px;
+	margin: 40px 20px;
+}
+
+.desaparece {
+	display: none;
+}
+
+.foto-cada-uno a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #f5cb11;
+}
+
 
 /*Seccion de Mini Nav*/
 
